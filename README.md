@@ -1,12 +1,12 @@
-# Mạch hiển thị MKE-M07 LCD1602 I2C module
+# Mạch hiển thị MKE-M08 LCD2004 I2C module
 
-![](/temp_link_mke_m07_lcd1602/image/lcd1.jpg)
+![](/image/MKE_M08_1.jpg)
 
 ## Giới thiệu
 
-Mạch hiển thị MKE-M07 LCD1602 I2C module được sử dụng để hiển thị thông tin dưới dạng ký tự với khả năng hiển thị 2 dòng, mỗi dòng 16 ký tự, mạch được tích hợp sẵn bộ chuyển đổi giao tiếp I2C cho LCD nên có thể dễ dàng kết nối và sử dụng với chỉ 2 chân giao tiếp I2C là SDA (data) và SCL (clock).
+Mạch hiển thị MKE-M08 LCD2004 I2C module được sử dụng để hiển thị thông tin dưới dạng ký tự với khả năng hiển thị 4 dòng, mỗi dòng 20 ký tự, mạch được tích hợp sẵn bộ chuyển đổi giao tiếp I2C cho LCD nên có thể dễ dàng kết nối và sử dụng với chỉ 2 chân giao tiếp I2C là SDA (data) và SCL (clock).
 
-Mạch hiển thị MKE-M07 LCD1602 I2C module thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+Mạch hiển thị MKE-M08 LCD2004 I2C module thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
 
 ## Thông số kỹ thuật
 
@@ -14,18 +14,23 @@ Mạch hiển thị MKE-M07 LCD1602 I2C module thuộc hệ sinh thái phần c�
 - Chuẩn giao tiếp: Digital I2C
 - Các chân giao tiếp: SDA (Serial Data) / SCL (Serial Clock)
 - Điện áp giao tiếp: TTL 3.3/5VDC
-- Loại LCD: LCD1602 (2 dòng, mỗi dòng 16 ký tự), [datasheet](https://www.mediafire.com/file/95vbg37z5rezjpf/%5BMakerLab.vn%5D+LCD1602+datasheet.pdf/file).
-- IC chuyển giao tiếp LCD sang I2C: PCF8574T, [datasheet](https://www.mediafire.com/file/trz2qjkn45epry9/%5BMakerLab.vn%5D+PCF8574_PCF8574A+datasheet.pdf/file).
+- Loại LCD: LCD2004 (4 dòng, mỗi dòng 20 ký tự), datasheet.
+- IC chuyển giao tiếp LCD sang I2C: PCF8574T, datasheet.
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
 - Chuẩn kết nối: Conector XH2.54 4Pins
 - Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
 
+## Kích thước
+
+![](/image/MKE_M08_2.jpg)
+
 ## Các chân tín hiệu
 
+![](/image/MKE_M08_3.jpg)
 <table><thead>
   <tr>
-    <th>MKE-M07</th>
+    <th>MKE-M08</th>
     <th>Ghi chú</th>
   </tr></thead>
 <tbody>
@@ -56,15 +61,6 @@ Mạch hiển thị MKE-M07 LCD1602 I2C module thuộc hệ sinh thái phần c�
 </tbody>
 </table>
 
-## Hình ảnh sản phẩm
-
-![MKE-M07 LCD1602 I2C front of module](/temp_link_mke_m07_lcd1602/image/lcd1.jpg)
-![MKE-M07 LCD1602 I2C back of module](/temp_link_mke_m07_lcd1602/image/lcd3.jpg)
-
-## Kích thước sản phẩm
-
-![MKE-M07 LCD1602 I2C module dimension](/temp_link_mke_m07_lcd1602/image/lcd2.jpg)
-
 ## Hướng dẫn sử dụng
 
 ### Các thiết bị sử dụng trong bài hướng dẫn
@@ -73,18 +69,18 @@ Mạch hiển thị MKE-M07 LCD1602 I2C module thuộc hệ sinh thái phần c�
 
 - [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
 - [Mạch MakerEdu Shield for Vietduino](https://www.makerlab.vn/vietduinosd)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
+- [Mạch màn hình MKE-M08 LCD1602 I2C Display Module](https://www.makerlab.vn/mkeM08)
 
 #### mBlock
 
 - [Mạch MakerEdu Creator (Arduino Uno Compatible)](https://www.makerlab.vn/creator)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
+- [Mạch màn hình MKE-M08 LCD1602 I2C Display Module](https://www.makerlab.vn/mkeM08)
 
 #### Micro:bit:
 
 - [Mạch Micro:bit V2](https://hshop.vn/products/kit-hoc-lap-trinh-stem-cho-tre-em-micro-bit-v2) hoặc các phiên bản tương thích.
 - [Mạch MakerEdu Shield for Micro:bit](https://www.makerlab.vn/microbitsd)
-- [Mạch màn hình MKE-M07 LCD1602 I2C Display Module](https://www.makerlab.vn/mkem07)
+- [Mạch màn hình MKE-M08 LCD1602 I2C Display Module](https://www.makerlab.vn/mkeM08)
 
 ### Hướng dẫn sử dụng với Arduino (Code C)
 
@@ -92,7 +88,7 @@ Mạch hiển thị MKE-M07 LCD1602 I2C module thuộc hệ sinh thái phần c�
 
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-- Mở chương trình mẫu "MKE_M07_LCD1602_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_M07_LCD1602_Serial hoặc [tải chương trình mẫu tại đây](/arduino)
+- Mở chương trình mẫu "MKE_M08_LCD1602_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_M08_LCD1602_Serial hoặc [tải chương trình mẫu tại đây](/arduino)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
