@@ -69,18 +69,18 @@ Mạch hiển thị MKE-M08 LCD2004 I2C module thuộc hệ sinh thái phần c�
 
 - [Mạch Vietduino Uno (Arduino Uno Compatible)](https://www.makerlab.vn/vuno)
 - [Mạch MakerEdu Shield for Vietduino](https://www.makerlab.vn/vietduinosd)
-- [Mạch màn hình MKE-M08 LCD1602 I2C Display Module](https://www.makerlab.vn/mkeM08)
+- [Mạch màn hình MKE-M08 LCD2004 I2C Display Module](https://www.makerlab.vn/mkeM08)
 
 #### mBlock
 
 - [Mạch MakerEdu Creator (Arduino Uno Compatible)](https://www.makerlab.vn/creator)
-- [Mạch màn hình MKE-M08 LCD1602 I2C Display Module](https://www.makerlab.vn/mkeM08)
+- [Mạch màn hình MKE-M08 LCD2004 I2C Display Module](https://www.makerlab.vn/mkeM08)
 
 #### Micro:bit:
 
 - [Mạch Micro:bit V2](https://hshop.vn/products/kit-hoc-lap-trinh-stem-cho-tre-em-micro-bit-v2) hoặc các phiên bản tương thích.
 - [Mạch MakerEdu Shield for Micro:bit](https://www.makerlab.vn/microbitsd)
-- [Mạch màn hình MKE-M08 LCD1602 I2C Display Module](https://www.makerlab.vn/mkeM08)
+- [Mạch màn hình MKE-M08 LCD2004 I2C Display Module](https://www.makerlab.vn/mkeM08)
 
 ### Hướng dẫn sử dụng với Arduino (Code C)
 
@@ -88,7 +88,7 @@ Mạch hiển thị MKE-M08 LCD2004 I2C module thuộc hệ sinh thái phần c�
 
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-- Mở chương trình mẫu "MKE_M08_LCD1602_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_M08_LCD1602_Serial hoặc [tải chương trình mẫu tại đây](/arduino)
+- Mở chương trình mẫu "MKE_M08_LCD2004_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_M08_LCD2004_Serial hoặc [tải chương trình mẫu tại đây](/arduino)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
