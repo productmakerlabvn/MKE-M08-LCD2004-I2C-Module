@@ -15,7 +15,7 @@ Mạch hiển thị MKE-M08 LCD2004 I2C module thuộc hệ sinh thái phần c�
 - Các chân giao tiếp: SDA (Serial Data) / SCL (Serial Clock)
 - Điện áp giao tiếp: TTL 3.3/5VDC
 - Loại LCD: LCD2004 (4 dòng, mỗi dòng 20 ký tự), datasheet.
-- IC chuyển giao tiếp LCD sang I2C: PCF8574T, datasheet.
+- IC chuyển giao tiếp LCD sang I2C: PCF8574T, [datasheet](https://www.mediafire.com/file/trz2qjkn45epry9/%5BMakerLab.vn%5D+PCF8574_PCF8574A+datasheet.pdf/file).
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
 - Chuẩn kết nối: Conector XH2.54 4Pins
@@ -108,7 +108,10 @@ Mạch hiển thị MKE-M08 LCD2004 I2C module thuộc hệ sinh thái phần c�
 [Hướng dẫn nạp chương trình, cài đặt Extension Micro:bit cơ bản.](https://github.com/makerlabvn/MakeCode-microbit)
 
 - Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/](https://github.com/devmakerlabvn/makecode-mke-s01-ultrasonic-distance-sensor)
+- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu:
+
+      https://github.com/devmakerlabvn/makecode-mke-m08-lcd2004-i2c-module
+
 - Kết nối Micro:bit với máy tính và nạp chương trình.
 - Kết nối mạch Micro:bit với MakerEdu Shield, màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
 
